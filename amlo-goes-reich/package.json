@@ -1,0 +1,22 @@
+{
+  "name": "amlo-goes-reich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest || exit 0",
+    "build": "webpack --config webpack.config.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^24.7.1",
+    "regenerator-runtime": "^0.13.2",
+    "webpack-cli": "^3.3.0"
+  }
+}
